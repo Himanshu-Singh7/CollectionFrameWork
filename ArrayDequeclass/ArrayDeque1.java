@@ -14,7 +14,7 @@ public class ArrayDeque1 {
         	System.out.println(itr.next());
         }
         
-        
+        //Delete the last elemnts
         deque.pollLast();
         System.out.println("After pollLast() Traversal...");  
         Iterator itr2 = deque.iterator();
